@@ -232,8 +232,8 @@ main_container.style.gap="5px"
 //named,arrow, anonymous can use below 
 products.forEach(function(val,i,a){
     let card=document.createElement("div")
-    card.style.width="24%"
-    card.style.height="300px"
+    card.style.width="24vw"
+    card.style.height="25vh"
     let prop_id=document.createElement("p")
     let pro_title=document.createElement("p")
     pro_title.innerText=val.title.slice(0,20)
